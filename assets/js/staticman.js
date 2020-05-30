@@ -13,7 +13,7 @@
   
   
 
-  <link rel="alternate" type="application/rss+xml" title="CaffeCaffe - Le site francophone sur l'espresso" href="http://caffecaffe.ca/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="CaffeCaffe - Le site francophone sur l'espresso" href="http://localhost:4000/feed.xml">
 
   
 
@@ -73,12 +73,12 @@
   <meta property="og:type" content="website">
 
   
-  <meta property="og:url" content="http://caffecaffe.ca/assets/js/staticman.js">
-  <link rel="canonical" href="http://caffecaffe.ca/assets/js/staticman.js">
+  <meta property="og:url" content="http://localhost:4000/assets/js/staticman.js">
+  <link rel="canonical" href="http://localhost:4000/assets/js/staticman.js">
   
 
   
-  <meta property="og:image" content="http://caffecaffe.ca/assets/img/caffecaffe-icon256.png">
+  <meta property="og:image" content="http://localhost:4000/assets/img/caffecaffe-icon256.png">
   
 
 
@@ -96,7 +96,7 @@
   
 
   
-  <meta name="twitter:image" content="http://caffecaffe.ca/assets/img/caffecaffe-icon256.png">
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/caffecaffe-icon256.png">
   
 
   
@@ -111,7 +111,7 @@
     
 
   
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand" href="http://caffecaffe.ca/">CaffeCaffe</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand" href="http://localhost:4000/">CaffeCaffe</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -159,7 +159,7 @@
   
     <div class="avatar-container">
       <div class="avatar-img-border">
-        <a href="http://caffecaffe.ca/">
+        <a href="http://localhost:4000/">
           <img alt="Navbar avatar" class="avatar-img" src="/assets/img/caffecaffe-icon256.png" />
         </a>
       </div>
