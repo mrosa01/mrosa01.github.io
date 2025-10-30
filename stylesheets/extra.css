@@ -1,0 +1,47 @@
+:root  > * {
+  --md-primary-fg-color:        #3B3B3B;
+  --md-primary-fg-color--light: #3B3B3B;
+  --md-primary-fg-color--dark:  #3B3B3B;
+}
+
+/* Réduit l'espace autour du bouton mais pas l'image */
+.md-header__button.md-logo {
+  padding: 0;         /* supprime les paddings internes */
+  margin: 0;          /* supprime les marges externes */
+  width: auto;        /* laisse le bouton s'adapter au logo */
+  min-width: unset;   /* supprime largeur minimale imposée par le thème */
+  display: inline-flex; /* garde le contenu centré */
+  align-items: center;  /* centre verticalement */
+}
+
+/* Logo garde sa taille réelle */
+.md-header__button.md-logo img {
+  height: 70px;       /* taille réelle du logo (ajuste selon ton image) */
+  width: auto;        /* conserve le ratio */
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+} */
+
+/* @font-face {
+  font-family: 'Lora';
+  src: url("https://fonts.googleapis.com/css2?family=Lora");
+} */
+
+/* p li {
+  font-family: 'Lora', 'Times New Roman', serif
+} */
+
+/* .md-header__button.md-logo {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 20% !important;
+  width: 20% !important; /* ou la valeur que tu veux */
+} */

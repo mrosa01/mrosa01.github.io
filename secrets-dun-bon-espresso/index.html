@@ -1,441 +1,1017 @@
-<!DOCTYPE html>
-<html lang="en">
-  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2020 -->
+
+<!doctype html>
+<html lang="fr" class="no-js">
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>Secrets d’un bon espresso</title>
-  
-  
-  <meta name="author" content="Martin Rosa">
-  
-  
-  
-
-  <link rel="alternate" type="application/rss+xml" title="CaffèCaffè - Le site francophone sur l'espresso" href="http://caffecaffe.ca/feed.xml">
-
-  
-
-  
-
-  
-
-
-  
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://caffecaffe.ca/secrets-dun-bon-espresso/">
+      
+      
+        <link rel="prev" href="../espresso-italiano-tasting/">
+      
+      
+        <link rel="next" href="../evaluer-un-espresso/">
+      
+      
+      <link rel="icon" href="../assets/caffecaffe-256.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.2.7">
+    
     
       
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
-    
+        <title>Secrets d'un bon espresso - CaffèCaffè!</title>
       
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-
-
     
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.046329b4.min.css">
       
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-
-
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-
-
-    
-  
-
-  
-    
-      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
-    
-      <link rel="stylesheet" href="/assets/css/main.css">
-    
-  
-
-  
-
-  
-
-  <!-- Facebook OpenGraph tags -->
-  
-
-  
-  <meta property="og:title" content="Secrets d’un bon espresso">
-  
-
-   
-  <meta property="og:description" content="Selon les Italiens, afin d’obtenir un espresso de qualité, il est important de respecter la règle des 4 M: Mélange espresso (miscela) Machine espresso (machina) Moulin-doseur (macinadosatore) Techniques du barista (mano) Ainsi, il ne suffit pas d’avoir une machine espresso pour faire un espresso de qualité. Mélange espresso (miscela) À...">
-  
-
-
-  <meta property="og:type" content="website">
-
-  
-  <meta property="og:url" content="http://caffecaffe.ca/secrets-dun-bon-espresso/">
-  <link rel="canonical" href="http://caffecaffe.ca/secrets-dun-bon-espresso/">
-  
-
-  
-  <meta property="og:image" content="http://caffecaffe.ca/assets/img/caffecaffe-icon256.png">
-  
-
-
-  <!-- Twitter summary cards -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@">
-  <meta name="twitter:creator" content="@">
-
-  
-  <meta name="twitter:title" content="Secrets d’un bon espresso">
-  
-
-  
-  <meta name="twitter:description" content="Selon les Italiens, afin d’obtenir un espresso de qualité, il est important de respecter la règle des 4 M: Mélange espresso (miscela) Machine espresso (machina) Moulin-doseur (macinadosatore) Techniques du barista (mano) Ainsi, il ne suffit pas d’avoir une machine espresso pour faire un espresso de qualité. Mélange espresso (miscela) À...">
-  
-
-  
-  <meta name="twitter:image" content="http://caffecaffe.ca/assets/img/caffecaffe-icon256.png">
-  
-
-  
-
-  
-
-</head>
-
-
-  <body>
-
-    
-
-  
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand" href="http://caffecaffe.ca/">CaffèCaffè</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="main-navbar">
-    <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/apropos">À Propos de ce site</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Techniques</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/evaluer-un-espresso">Évaluer l'espresso</a>
-                  <a class="dropdown-item" href="/secrets-dun-bon-espresso">Secrets d'un bon espresso</a>
-                  <a class="dropdown-item" href="/mousser-son-lait">Mousser son lait</a>
-                  <a class="dropdown-item" href="/regle-de-service">Règle de service</a>
-            </div>
-          </li>
         
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Notes</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/espresso-avec-ou-sans-sucre">Sucré ou non-sucré?</a>
-                  <a class="dropdown-item" href="/portefiltre-simple-ou-double">Simple ou double?</a>
-                  <a class="dropdown-item" href="/moudre-a-lavance-ou-non">Moudre a l'avance ou non?</a>
-                  <a class="dropdown-item" href="/composition-melange-espresso">Miscela</a>
-            </div>
-          </li>
-        
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Résumés</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/espresso-italiano-tasting">Espresso Italiano Tasting</a>
-            </div>
-          </li>
-        
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Définitions</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/definition-espresso-italiano">Espresso Italiano</a>
-                  <a class="dropdown-item" href="/definition-cappuccino-italiano">Cappuccino Italiano</a>
-            </div>
-          </li>
-        </ul>
-  </div>
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
 
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lora";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
   
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        <a href="http://caffecaffe.ca/">
-          <img alt="Navbar avatar" class="avatar-img" src="/assets/img/caffecaffe-icon256.png" />
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#secrets-dun-bon-espresso" class="md-skip">
+          Aller au contenu
         </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="CaffèCaffè!" class="md-header__button md-logo" aria-label="CaffèCaffè!" data-md-component="logo">
+      
+  <img src="../assets/caffecaffe-256.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CaffèCaffè!
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Secrets d'un bon espresso
+            
+          </span>
+        </div>
       </div>
     </div>
-  
-
-</nav>
-
-
-    <!-- TODO this file has become a mess, refactor it -->
-
-
-
-
-
-
-
-<header class="header-section ">
-
-<div class="intro-header no-img">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>Secrets d’un bon espresso</h1>
+    
       
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
       
-      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
   </div>
 </div>
+    
+    
+  </nav>
+  
 </header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
 
 
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CaffèCaffè!" class="md-nav__button md-logo" aria-label="CaffèCaffè!" data-md-component="logo">
+      
+  <img src="../assets/caffecaffe-256.png" alt="logo">
+
+    </a>
+    CaffèCaffè!
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apropos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    À propos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Articles
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Articles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../espresso-italiano-tasting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Espresso Italiano Tasting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Secrets d'un bon espresso
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Secrets d'un bon espresso
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#melange-espresso-miscela" class="md-nav__link">
+    Mélange espresso (miscela)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#machine-espresso-machina" class="md-nav__link">
+    Machine espresso (machina)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moulin-doseur-macinadosatore" class="md-nav__link">
+    Moulin-doseur (macinadosatore)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#techniques-du-barista-mano" class="md-nav__link">
+    Techniques du barista (mano)
+  </a>
+  
+    <nav class="md-nav" aria-label="Techniques du barista (mano)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etapes-a-suivre1-selon-david-schomer" class="md-nav__link">
+    Étapes à suivre1 (selon David Schomer)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etapes-a-suivre1-selon-le-standard-espresso-italiano" class="md-nav__link">
+    Étapes à suivre1 (selon le standard "Espresso Italiano")
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    Notes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../evaluer-un-espresso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Évaluer l'espresso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mousser-son-lait/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mousser son lait
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../composition-melange-espresso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mélange espresso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../espresso-avec-ou-sans-sucre/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Avec ou sans sucre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portefiltre-simple-ou-double/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simple ou double
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moudre-a-lavance-ou-non/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moudre à l'avance ou non
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regle-de-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Règle de service
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Définitions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Définitions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definition-espresso-italiano/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Espresso Italiano
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definition-cappuccino-italiano/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cappuccino Italiano
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Références
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Références
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../livres/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Livres
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../formations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Formations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#melange-espresso-miscela" class="md-nav__link">
+    Mélange espresso (miscela)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#machine-espresso-machina" class="md-nav__link">
+    Machine espresso (machina)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moulin-doseur-macinadosatore" class="md-nav__link">
+    Moulin-doseur (macinadosatore)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#techniques-du-barista-mano" class="md-nav__link">
+    Techniques du barista (mano)
+  </a>
+  
+    <nav class="md-nav" aria-label="Techniques du barista (mano)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etapes-a-suivre1-selon-david-schomer" class="md-nav__link">
+    Étapes à suivre1 (selon David Schomer)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etapes-a-suivre1-selon-le-standard-espresso-italiano" class="md-nav__link">
+    Étapes à suivre1 (selon le standard "Espresso Italiano")
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    Notes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
 
 
-<div class="container-md" role="main">
-  <div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      <p><img src="/assets/img/secrets-dun-bon-espresso.jpg" alt="" /></p>
-
-<p>Selon les Italiens, afin d’obtenir un espresso de qualité, il est important de respecter la règle des 4 M:</p>
-
+<h1 id="secrets-dun-bon-espresso">Secrets d'un bon espresso</h1>
+<p><img alt="" src="../assets/secrets-dun-bon-espresso.jpg" /></p>
+<p>Selon les Italiens, afin d'obtenir un espresso de qualité, il est important de respecter la règle des 4 M:</p>
 <ul>
-  <li>Mélange espresso (<em>miscela</em>)</li>
-  <li>Machine espresso (<em>machina</em>)</li>
-  <li>Moulin-doseur (<em>macinadosatore</em>)</li>
-  <li>Techniques du barista (<em>mano</em>)</li>
+<li><strong>M</strong>élange espresso (miscela)</li>
+<li><strong>M</strong>achine espresso (machina)</li>
+<li><strong>M</strong>oulin-doseur (macinadosatore)</li>
+<li>Techniques du barista (<strong>m</strong>ano)</li>
 </ul>
-
-<p>Ainsi, il ne suffit pas d’avoir une machine espresso pour faire un espresso de qualité.</p>
-
-<h4 id="mélange-espresso-miscela">Mélange espresso (<em>miscela</em>)</h4>
-
-<p>À l’origine de tout bon espresso se trouve un bon mélange. Quoi qu’un bon mélange espresso ne suffit pas pour obtenir un bon espresso, il est une partie importante de l’équation.</p>
-
-<p>Un mélange espresso italien est par définition et par tradition composé de cafés de plusieurs origines. C’est uniquement de cette façon que nous pouvons obtenir un espresso balancé. De plus, selon les Italiens, plus un mélange possède de cafés de différentes origines, plus il sera complexe et riche (on dit qu’un bon mélange comporte entre 5 et 13 différents cafés).</p>
-
+<p>Ainsi, il ne suffit pas d'avoir une machine espresso pour faire un espresso de qualité.</p>
+<h2 id="melange-espresso-miscela">Mélange espresso (miscela)</h2>
+<p>À l'origine de tout bon espresso se trouve un bon mélange. Quoi qu'un bon mélange espresso ne suffit pas pour obtenir un bon espresso, il est une partie importante de l'équation.</p>
+<p>Un mélange espresso italien est par définition et par tradition composé de cafés de plusieurs origines. C'est uniquement de cette façon que nous pouvons obtenir un espresso balancé. De plus, selon les Italiens, plus un mélange possède de cafés de différentes origines, plus il sera complexe et riche (on dit qu'un bon mélange comporte entre 5 et 13 différents cafés).</p>
 <p>Un mélange espresso italien est habituellement composé en fonction des trois critères suivants:</p>
-
 <ul>
-  <li>Complémentaire (ex. un arabica lavé pour l’acidité et un arabica naturel pour le corps et la structure)</li>
-  <li>Compatible (ex. certains arabica lavé accentuent l’astringeance de certains types de cafés)</li>
-  <li>Constance (en cas de problèmes d’approvisionnement ou de changement majeur)</li>
+<li><strong>Complémentaire</strong> (ex. un arabica lavé pour l'acidité et un arabica naturel pour le corps et la structure)</li>
+<li><strong>Compatible</strong> (ex. certains arabica lavé accentuent l'astringeance de certains types de cafés)</li>
+<li><strong>Constance</strong> (en cas de problèmes d'approvisionnement ou de changement majeur)</li>
 </ul>
-
-<p>Il est important aussi que les cafés utilisés dans le mélange soit d’une qualité exceptionnelle puisque le processus d’extraction met en évidence à la fois les qualités et les défauts de chaque café.</p>
-
-<h4 id="machine-espresso-machina">Machine espresso (<em>machina</em>)</h4>
-
-<p>Qu’y a-t-il de si spécial à envoyer 25ml d’eau à 90ºC avec une pression de 9 bar à travers un lit de café moulu?</p>
-
-<p>Envoyer 25ml d’eau à 90ºC avec une pression de 9 bar à travers un lit de café moulu est une chose; produire des centaines, voir des milliers de tasses une après l’autre, en obtenant des résultats constants et en respectant la certification de l’espresso Italien, en est une autre.</p>
-
-<p>Lors du choix d’une machine espresso, les points suivants sont importants à considérer:</p>
-
+<p>Il est important aussi que les cafés utilisés dans le mélange soit d'une qualité exceptionnelle puisque le processus d'extraction met en évidence à la fois les qualités et les défauts de chaque café.</p>
+<h2 id="machine-espresso-machina">Machine espresso (machina)</h2>
+<p>Qu'y a-t-il de si spécial à envoyer 25ml d'eau à 90ºC avec une pression de 9 bar à travers un lit de café moulu?</p>
+<p>Envoyer 25ml d'eau à 90ºC avec une pression de 9 bar à travers un lit de café moulu est une chose; produire des centaines, voir des milliers de tasses une après l'autre, en obtenant des résultats constants et en respectant la certification de l'espresso Italien, en est une autre.</p>
+<p>Lors du choix d'une machine espresso, les points suivants sont importants à considérer:</p>
 <ul>
-  <li>Fiabilité de la marque</li>
-  <li>Assistance et support dans votre région</li>
-  <li>Capacité de la machine lors de haut volume</li>
-  <li>Dimension de la machine</li>
-  <li>Type de machine (semi-automatique, automatique, super-automatique)</li>
-  <li>Esthétique de la machine</li>
-  <li>Accessoires</li>
+<li>Fiabilité de la marque</li>
+<li>Assistance et support dans votre région</li>
+<li>Capacité de la machine lors de haut volume</li>
+<li>Dimension de la machine</li>
+<li>Type de machine (semi-automatique, automatique, super-automatique)</li>
+<li>Esthétique de la machine</li>
+<li>Accessoires</li>
 </ul>
-
-<h4 id="moulin-doseur-macinadosatore">Moulin-doseur (<em>macinadosatore</em>)</h4>
-
-<p>Il ne fait aucun doute que le moulin-doseur est d’une importance primordiale pour l’obtention d’un espresso de qualité. Par conséquent, le choix de ce dernier ne doit pas se faire à la légère.</p>
-
+<h2 id="moulin-doseur-macinadosatore">Moulin-doseur (macinadosatore)</h2>
+<p>Il ne fait aucun doute que le moulin-doseur est d'une importance primordiale pour l'obtention d'un espresso de qualité. Par conséquent, le choix de ce dernier ne doit pas se faire à la légère.</p>
 <p>Voici quelques critères importants à évaluer:</p>
-
 <ul>
-  <li>Fiabilité de la marque</li>
-  <li>Assistance et support dans votre région</li>
-  <li>Capacité de la machine lors de haut volume</li>
-  <li>Type de meules (plates ou coniques)</li>
-  <li>Nombre de révolutions</li>
-  <li>Voltage et puissance</li>
-  <li>Automatique ou pas</li>
-  <li>Facilité de nettoyage</li>
-  <li>Bruit</li>
+<li>Fiabilité de la marque</li>
+<li>Assistance et support dans votre région</li>
+<li>Capacité de la machine lors de haut volume</li>
+<li>Type de meules (plates ou coniques)</li>
+<li>Nombre de révolutions</li>
+<li>Voltage et puissance</li>
+<li>Automatique ou pas</li>
+<li>Facilité de nettoyage</li>
+<li>Bruit</li>
 </ul>
-
-<p>En général, si vous utilisez plus de 3 kilos par jour, il est préférable d’opter pour un moulin à meules coniques. Autrement, vous pouvez optez pour un moulin à meules plates.</p>
-
-<p>Cependant, l’avantage du moulin à meules coniques est non seulement dans sa durée d’utilisation (1200kg vs 400kg), mais aussi dans son nombre de révolutions peu élevé comparé aux meules plates (400-500rpm vs 1400-1500rpm). Ainsi, en ayant un nombre de révolutions peu elevé, le café moulu surchauffe moins et par conséquent tend à mieux conserver les arômes du café. Toutefois, son coût est évidemment plus élevé.</p>
-
-<h4 id="techniques-du-barista-mano">Techniques du barista (<em>mano</em>)</h4>
-
-<p>Pour environ 30ml d’espresso, incluant la <em>crema</em>, l’extraction devrait prendre entre 20 et 30 secondes à partir du moment ou la pompe est activée. L’écoulement devrait avoir une texture mielleuse. Si l’extraction dépasse 30 secondes, ajustez la mouture afin qu’elle soit plus grosse. Si l’extraction prend moins de 20 secondes, ajustez la mouture afin qu’elle soit plus fine. Il est préférable de ne pas varier la pression que vous appliquez de façon à ne pas jouer avec plusieurs variables à la fois. Vous devriez obtenir environ 1ml par seconde par bec.</p>
-
-<p><strong>Étapes à suivre (selon David Schomer)</strong> [1]</p>
-
+<p>En général, si vous utilisez plus de 3 kilos par jour, il est préférable d'opter pour un moulin à meules coniques. Autrement, vous pouvez optez pour un moulin à meules plates.</p>
+<p>Cependant, l'avantage du moulin à meules coniques est non seulement dans sa durée d'utilisation (1200kg vs 400kg), mais aussi dans son nombre de révolutions peu élevé comparé aux meules plates (400-500rpm vs 1400-1500rpm). Ainsi, en ayant un nombre de révolutions peu elevé, le café moulu surchauffe moins et par conséquent tend à mieux conserver les arômes du café. Toutefois, son coût est évidemment plus élevé.</p>
+<h2 id="techniques-du-barista-mano">Techniques du barista (mano)</h2>
+<p>Pour environ 30ml d'espresso, incluant la crema, l'extraction devrait prendre entre 20 et 30 secondes à partir du moment ou la pompe est activée. L'écoulement devrait avoir une texture mielleuse. Si l'extraction dépasse 30 secondes, ajustez la mouture afin qu'elle soit plus grosse. Si l'extraction prend moins de 20 secondes, ajustez la mouture afin qu'elle soit plus fine. Il est préférable de ne pas varier la pression que vous appliquez de façon à ne pas jouer avec plusieurs variables à la fois. Vous devriez obtenir environ 1ml par seconde par bec.</p>
+<h3 id="etapes-a-suivre1-selon-david-schomer">Étapes à suivre<sup>1</sup> (selon David Schomer)</h3>
 <ol>
-  <li>
-    <p>Préchauffez les tasses.</p>
-  </li>
-  <li>
-    <p>Moudre le café.</p>
-  </li>
-  <li>
-    <p>Retirez le porte-filtre du groupe, enlevez le café et asséchez le panier avec un linge.</p>
-  </li>
-  <li>
-    <p>Doser environ 18-20 grammes de café moulu dans le panier et égaliser avec le doigt.</p>
-  </li>
-  <li>
-    <p>Utilisez le presse-café et pressez le café avec 15-30 livres de pression en prenant soin qu’il soit à niveau.</p>
-  </li>
-  <li>
-    <p>Cognez doucement le porte-filtre avec le presse-café et pressez le café à nouveau avec 30 livres de pression. Finissez avec un polissage (10-15 livres) complet de 360 degré de la surface.</p>
-  </li>
-  <li>
-    <p>Nettoyez attentivement avec les doigts le panier et le portefiltre afin qu’il ne reste pas de café moulu.</p>
-  </li>
-  <li>
-    <p>Activez la pompe et faites couler environ 50ml d’eau afin d’éviter de brûler le café avec de l’eau trop chaude (la température optimale est de 90-95ºC).</p>
-  </li>
-  <li>
-    <p>Placez le porte-filtre dans le groupe, activez la pompe et commencez à compter.</p>
-  </li>
-  <li>
-    <p>Arrêtez l’extraction [2] après environ 25 secondes, lorsque environ 30ml (par bec) a été extrait, ou encore lorsque l’extraction s’éclaircit.</p>
-  </li>
+<li>Préchauffez les tasses.</li>
+<li>Moudre le café.</li>
+<li>Retirez le porte-filtre du groupe, enlevez le café et asséchez le panier avec un linge.</li>
+<li>Doser environ 18-20 grammes de café moulu dans le panier et égaliser avec le doigt (pour un portefiltre double de 18g).</li>
+<li>Utilisez le presse-café et pressez le café avec 15-30 livres de pression en prenant soin qu'il soit à niveau.</li>
+<li>Cognez doucement le porte-filtre avec le presse-café et pressez le café à nouveau avec 30 livres de pression. Finissez avec un polissage (10-15 livres) complet de 360 degré de la surface.</li>
+<li>Nettoyez attentivement avec les doigts le panier et le portefiltre afin qu'il ne reste pas de café moulu.</li>
+<li>Activez la pompe et faites couler environ 50ml d'eau afin d'éviter de brûler le café avec de l'eau trop chaude (la température optimale est de 90-95ºC).</li>
+<li>Placez le porte-filtre dans le groupe, activez la pompe et commencez à compter.</li>
+<li>Arrêtez l'extraction<sup>2</sup> après environ 25 secondes, lorsque environ 30ml (par bec) a été extrait, ou encore lorsque l'extraction s'éclaircit.</li>
 </ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WNWj_U3MlEg" frameborder="0" allowfullscreen></iframe>
 
-<p><strong>Étapes à suivre (selon le standard “Espresso Italiano”)</strong> [1]</p>
-
+<h3 id="etapes-a-suivre1-selon-le-standard-espresso-italiano">Étapes à suivre<sup>1</sup> (selon le standard "Espresso Italiano")</h3>
 <ol>
-  <li>
-    <p>Préchauffez les tasses.</p>
-  </li>
-  <li>
-    <p>Retirez le porte-filtre du groupe, enlevez le café et asséchez le panier avec un linge.</p>
-  </li>
-  <li>
-    <p>Placez le portefiltre parfaitement au centre du support du doseur.</p>
-  </li>
-  <li>
-    <p>Dosez environ 14-15 grammes [3] de café moulu [4] dans le panier (pour un portefiltre double).</p>
-  </li>
-  <li>
-    <p>Utilisez un presse-café convenable, préférablement en métal et d’un certain poids [5].</p>
-  </li>
-  <li>
-    <p>Donner une serie de petits coups sur le portefiltre avec la main jusqu’à ce que le café moulu soit parfaitement à niveau.</p>
-  </li>
-  <li>
-    <p>Pressez parfaitement parralèle le café avec une pression minimum de 5kg (~10 livres) en vous assurant que la pression est uniforme sur toute la surface (le café doit offrir une perméabilité uniforme).</p>
-  </li>
-  <li>
-    <p>Nettoyez attentivement (avec la main ou avec un pinceau) le panier et le portefiltre afin qu’il ne reste pas de café moulu.</p>
-  </li>
-  <li>
-    <p>Placez le porte-filtre dans le groupe et activez la pompe.</p>
-  </li>
-  <li>
-    <p>L’extraction devrait prendre entre 20 et 30 secondes, environ 25-30ml (par bec) devrait avoir été extrait.</p>
-  </li>
+<li>Préchauffez les tasses.</li>
+<li>Retirez le porte-filtre du groupe, enlevez le café et asséchez le panier avec un linge.</li>
+<li>Placez le portefiltre parfaitement au centre du support du doseur.</li>
+<li>Dosez environ 14-15 grammes<sup>3</sup> de café moulu<sup>4</sup> dans le panier (pour un portefiltre double de 14-15g).</li>
+<li>Utilisez un presse-café convenable, préférablement en métal et d'un certain poids<sup>5</sup>.</li>
+<li>Donner une serie de petits coups sur le portefiltre avec la main jusqu'à ce que le café moulu soit parfaitement à niveau.</li>
+<li>Pressez parfaitement parralèle le café avec une pression minimum de 5kg (~10 livres) en vous assurant que la pression est uniforme sur toute la surface (le café doit offrir une perméabilité uniforme).</li>
+<li>Nettoyez attentivement (avec la main ou avec un pinceau) le panier et le portefiltre afin qu'il ne reste pas de café moulu.</li>
+<li>Placez le porte-filtre dans le groupe et activez la pompe.</li>
+<li>L'extraction devrait prendre entre 20 et 30 secondes, environ 25-30ml (par bec) devrait avoir été extrait.</li>
 </ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E9P1zw3RYow" frameborder="0" allowfullscreen></iframe>
 
-<p>Voici un vidéo de Lavazza Australie démontrant la technique Italienne:</p>
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/UIb_dauJyuw" frameborder="0" allowfullscreen=""></iframe>
-
-<hr />
-
-<p>[1] Il est important de faire vos propres essais en fonction de votre équipements, votre mélange et vos goûts. Ces règles ne sont que des lignes directrices.</p>
-
-<p>[2] L’extraction devrait débuter par quelques goûtes de <em>crema</em> et être suivi d’un flot constant et continu en volume et en vitesse.</p>
-
-<p>[3] Puisque le moulin-doseur fonctionne au volume de café, il est important d’avoir fait l’ajustement de votre moulin selon votre mélange afin qu’il délivre les doses de café voulu. Il existe une molette dans votre moulin-doseur à cet effet.</p>
-
-<p>[4] Notez que le café ne devrait pas avoir été moulu depuis plus d’une heure.</p>
-
-<p>[5] Pourquoi ne pas utilisez celui du moulin-doseur? Deux raisons:</p>
-
+<h2 id="notes">Notes</h2>
+<p><sup>1</sup> Il est important de faire vos propres essais en fonction de votre équipements, votre mélange et vos goûts. Ces règles ne sont que des lignes directrices.</p>
+<p><sup>2</sup> L'extraction devrait débuter par quelques goûtes de crema et être suivi d'un flot constant et continu en volume et en vitesse.</p>
+<p><sup>3</sup> Puisque le moulin-doseur fonctionne au volume de café, il est important d'avoir fait l'ajustement de votre moulin selon votre mélange afin qu'il délivre les doses de café voulu. Il existe une molette dans votre moulin-doseur à cet effet.</p>
+<p><sup>4</sup> Notez que le café ne devrait pas avoir été moulu depuis plus d'une heure.</p>
+<p><sup>5</sup> Pourquoi ne pas utilisez celui du moulin-doseur? Deux raisons:</p>
 <ul>
-  <li>L’action de forcer vers le haut n’est pas naturel et dans certain cas peut ne pas permettre d’atteindre la pression requise.</li>
-  <li>Il est très difficile d’effectuer une pression parfaitement horizontale permettant d’offrir une perméabilité uniforme qui ne favorisa pas la création de chemin d’extraction préférentiel.</li>
+<li>L'action de forcer vers le haut n'est pas naturel et dans certain cas peut ne pas permettre d'atteindre la pression requise.</li>
+<li>Il est très difficile d'effectuer une pression parfaitement horizontale permettant d'offrir une perméabilité uniforme qui ne favorisa pas la création de chemin d'extraction préférentiel.</li>
 </ul>
+<p>Si toutefois vous désirez utiliser le presse-café du moulin-doseur, vous devriez le tenir fermement avec une main et presser le café avec l'autre.</p>
 
-<p>Si toutefois vous désirez utiliser le presse-café du moulin-doseur, vous devriez le tenir fermement avec une main et presser le café avec l’autre.</p>
 
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
       
-    </div>
-  </div>
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pied de page" >
+        
+          
+          <a href="../espresso-italiano-tasting/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Espresso Italiano Tasting" rel="prev">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              <div class="md-ellipsis">
+                Espresso Italiano Tasting
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../evaluer-un-espresso/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Évaluer l&#39;espresso" rel="next">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              <div class="md-ellipsis">
+                Évaluer l'espresso
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
 </div>
-
-
-    <footer>
-  <div class="container-md beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      <ul class="list-inline text-center footer-links"></ul>
-
       
-      <p class="copyright text-muted">
+        <div class="md-social">
+  
+    
+    
+    
+    
       
-        Martin Rosa
-        &nbsp;&bull;&nbsp;
       
-      2020
-
+    
+    <a href="https://www.instagram.com/_k0ax_/" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+  
+</div>
       
-
-      
-      </p>
-      <!-- Please don't remove this, keep my open source work credited :) -->
-      <p class="theme-by text-muted">
-        Theme by
-        <a href="https://beautifuljekyll.com">beautiful-jekyll</a>
-      </p>
-      </div>
     </div>
   </div>
 </footer>
-
-  
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
     
-  
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.indexes"], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-
-  
     
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-
-  
+      <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+        <script src="../js/umami.js"></script>
+      
     
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-  
-
-
-
-  
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-      <script src="/assets/js/main.js"></script>
-    
-  
-
-
-
-
-
-
-  
   </body>
 </html>

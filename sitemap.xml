@@ -1,55 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://caffecaffe.ca/2020/05/30/de-retour.html</loc>
-<lastmod>2020-05-30T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://caffecaffe.ca/about/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/apropos/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/composition-melange-espresso/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/definition-cappuccino-italiano/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/definition-espresso-italiano/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/espresso-avec-ou-sans-sucre/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/espresso-italiano-tasting/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/evaluer-un-espresso/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/moudre-a-lavance-ou-non/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/mousser-son-lait/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/portefiltre-simple-ou-double/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/regle-de-service/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/secrets-dun-bon-espresso/</loc>
-</url>
-<url>
-<loc>http://caffecaffe.ca/tags.html</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://caffecaffe.ca/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/apropos/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/composition-melange-espresso/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/definition-cappuccino-italiano/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/definition-espresso-italiano/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/espresso-avec-ou-sans-sucre/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/espresso-italiano-tasting/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/evaluer-un-espresso/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/formations/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/livres/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/moudre-a-lavance-ou-non/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/mousser-son-lait/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/portefiltre-simple-ou-double/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/regle-de-service/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/secrets-dun-bon-espresso/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://caffecaffe.ca/videos/</loc>
+         <lastmod>2025-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
